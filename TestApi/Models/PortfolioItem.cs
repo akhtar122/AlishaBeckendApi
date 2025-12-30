@@ -1,4 +1,3 @@
-csharp TestApi/Models/PortfolioItem.cs
 using System.ComponentModel.DataAnnotations;
 
 namespace TestApi.Models;
@@ -6,8 +5,13 @@ namespace TestApi.Models;
 public class PortfolioItem
 {
     public int Id { get; set; }
-    [Required] public string Title { get; set; } = default!;
-    // store full file path or URL (per your requirement)
-    [Required] public string ImageUrl { get; set; } = default!;
+
+    [Required]
+    public string Title { get; set; } = string.Empty;
+
+    [Required]
+    public string ImageUrl { get; set; } = string.Empty;
+
     public DateTime CreatedAt { get; set; }
+
 }

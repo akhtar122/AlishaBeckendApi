@@ -1,4 +1,3 @@
-csharp TestApi/CQRS/Queries/GetPortfolioQuery.cs
 using MediatR;
 using TestApi.Models;
 using System.Collections.Generic;

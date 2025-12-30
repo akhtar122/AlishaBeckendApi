@@ -1,4 +1,3 @@
-csharp TestApi/Services/IFileService.cs
 namespace TestApi.Services;
 
 public interface IFileService

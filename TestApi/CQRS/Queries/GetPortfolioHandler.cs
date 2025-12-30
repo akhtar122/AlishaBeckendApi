@@ -1,4 +1,3 @@
-csharp TestApi/CQRS/Queries/GetPortfolioHandler.cs
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;

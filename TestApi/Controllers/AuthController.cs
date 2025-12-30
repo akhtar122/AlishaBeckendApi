@@ -1,4 +1,3 @@
-csharp TestApi/Controllers/AuthController.cs
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using TestApi.CQRS.Commands;

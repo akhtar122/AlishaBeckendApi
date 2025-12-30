@@ -1,4 +1,4 @@
-csharp TestApi/CQRS/Commands/CreatePortfolioCommand.cs
+
 using MediatR;
 using TestApi.Models;
 

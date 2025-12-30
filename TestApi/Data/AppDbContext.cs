@@ -1,4 +1,3 @@
-CSharp TestApi/Data/AppDbContext.cs
 using Microsoft.EntityFrameworkCore;
 using TestApi.Models;
 
@@ -14,7 +13,7 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder mb)
     {
         mb.Entity<User>().HasIndex(u => u.Username).IsUnique();
-        mb.Entity<User>().Property(u => u.Role).HasDefaultValue("manager");
+         mb.Entity<User>().Property(u => u.Role).HasDefaultValue("manager");
         mb.Entity<PortfolioItem>().Property(p => p.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
     }
 }

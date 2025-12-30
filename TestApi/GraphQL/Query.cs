@@ -1,4 +1,3 @@
-csharp TestApi/GraphQL/Query.cs
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using HotChocolate;

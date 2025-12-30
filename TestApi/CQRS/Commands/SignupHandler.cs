@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using BCrypt.Net;
 using TestApi.Data;
 using TestApi.Models;
 using Microsoft.EntityFrameworkCore;
+using BCrypt.Net;
 
 namespace TestApi.CQRS.Commands;
 

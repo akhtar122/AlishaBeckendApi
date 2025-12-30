@@ -1,4 +1,3 @@
-csharp TestApi/Models/User.cs
 using System.ComponentModel.DataAnnotations;
 
 namespace TestApi.Models;
